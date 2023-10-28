@@ -91,9 +91,9 @@ class Parking_Garage():
             print("invalid_ticket_number")
 
 
-garage = Parking_Garage()
+# garage = Parking_Garage()
 
-garage.take_ticket()
+# garage.take_ticket()
 
-garage.pay_for_parking()
-garage.leave_garage()
+# garage.pay_for_parking()
+# garage.leave_garage()
