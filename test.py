@@ -1,9 +1,6 @@
 import main
 import random
 
-class Premium_Ticket(main.Ticket):
-    pass
-
 # Spin off of Parking Garage functionality
 class Parking_Garage2(main.Parking_Garage):
     
@@ -30,7 +27,7 @@ class Parking_Garage2(main.Parking_Garage):
 
             print(f"Your ticket ID number is {id_number}")
 
-            ticket = Ticket2(id_number)
+            ticket = main.Ticket(id_number)
             self.current_tickets[str(id_number)] = ticket
             self.tickets.append(ticket)
         else:
