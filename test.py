@@ -1,7 +1,7 @@
 import main
 import random
 
-class Ticket2(main.Ticket):
+class Premium_Ticket(main.Ticket):
     pass
 
 # Spin off of Parking Garage functionality
